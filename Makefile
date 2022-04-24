@@ -1,5 +1,5 @@
-MCU=attiny13
-AVRDUDEMCU=t13
+MCU=attiny84
+AVRDUDEMCU=t84
 CC=/usr/bin/avr-gcc
 CFLAGS=-g -Os -Wall -mcall-prologues -mmcu=$(MCU)
 OBJ2HEX=/usr/bin/avr-objcopy
